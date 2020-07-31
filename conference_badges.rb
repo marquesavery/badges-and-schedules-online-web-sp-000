@@ -11,6 +11,8 @@ badge_list = []
   return badge_list
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  attendees.each_with_index do |speaker, index|
+    "Hello, #{speaker}! You'll be assigned to room #{index}!" 
 
 end
