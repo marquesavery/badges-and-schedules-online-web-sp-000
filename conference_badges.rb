@@ -23,5 +23,8 @@ end
 def printer
   batch_badge_creator.each do |speaker|
     puts "#{speaker}"
+  end
+  assign_rooms.each do |room|
+    puts "#{room}"
 
 end
